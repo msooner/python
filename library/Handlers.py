@@ -25,6 +25,7 @@ class BaseHandler(RequestHandler):
         """ 取消缓存 """
         return None
 
+    # 任何一种http请求都会执行prepare方法
     def prepare(self):
         if self.request.method == 'OPTIONS':
             return self.options()

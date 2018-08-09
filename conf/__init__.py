@@ -31,6 +31,10 @@ conf.register_cli_opts([
     cfg.IntOpt('pool_recycle', 3600)
 ], sqlalchemy)
 
+
+import pymysql
+pymysql.install_as_MySQLdb()
+
 # mysql
 mysql = cfg.OptGroup(name='mysql', title="MySQL DSN配置")
 conf.register_group(mysql)
