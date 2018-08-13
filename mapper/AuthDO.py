@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from .BaseDO import BaseDO
 from sqlalchemy import Column

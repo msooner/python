@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from library.Decorate import DI
 from library.G import G

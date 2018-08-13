@@ -1,3 +1,5 @@
+#-*-coding:utf-8-*-
+
 import json
 from tornado.web import RequestHandler
 from library.Result import Result

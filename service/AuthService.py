@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from .BaseService import BaseService
 from dao.AuthDAO import AuthDAO
@@ -7,7 +7,6 @@ from library.Decorate import Transaction
 from mapper.AuthDO import AuthDO
 from library.Route import route
 from library.Exception import AuthException
-
 
 class AuthService(BaseService):
 

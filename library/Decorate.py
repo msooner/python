@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from sqlalchemy.orm import scoped_session
 from library.Exception import CustomException

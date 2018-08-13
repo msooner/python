@@ -77,3 +77,10 @@ ________________________________________________________________________________
  - Transaction 需要使用事务的地方，函数执行结束会自动提交事务，如执行失败会上抛该函数异常，并且回滚事务。
  - Return controller层返回结果的封装，确保返回结果被放到了Result类中
  - Deprecated 已废弃方法如果代码没有及时删除，可使用该装饰器提示。
+
+
+___________________________________________________________________________________________________________________
+
+**项目启动方式：切换到项目根目录，执行下面操作即可**
+
+python application.py --config-file=/Users/tusm/Documents/python/pyadmin/conf/conf.ini --log-file=/Users/tusm/Documents/python/pyadmin/log/log.log

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from library.Handlers import BaseHandler
 from library.Decorate import Return

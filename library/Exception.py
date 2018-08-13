@@ -1,8 +1,7 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 """
 自定义异常
 """
-
 
 class CustomException(Exception):
     """ 自定义异常 """

@@ -1,3 +1,5 @@
+#-*-coding:utf-8-*-
+
 from .BaseDAO import BaseDAO
 from mapper.AuthDO import AuthDO
 from mapper.RoleAuthsDO import RoleAuthsDO

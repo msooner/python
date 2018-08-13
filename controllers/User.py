@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from library.Exception import UserException
 from library.Handlers import BaseHandler

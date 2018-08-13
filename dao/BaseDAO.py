@@ -1,6 +1,7 @@
+#-*-coding:utf-8-*-
+
 from library.G import G
 from library.Decorate import DI
-
 
 @DI(g=G.getInstance())
 class BaseDAO():

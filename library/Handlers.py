@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
 import json
@@ -11,8 +10,11 @@ from library.Result import Result
 from library.Utils import Utils
 from service.UserService import UserService
 
-
 class BaseHandler(RequestHandler):
+
+    def data_received(self, chunk):
+        pass
+
     uid = None
     token = None
 

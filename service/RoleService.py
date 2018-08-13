@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from .BaseService import BaseService
 from dao.RoleDAO import RoleDAO

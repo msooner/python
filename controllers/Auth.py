@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from library.Handlers import BaseHandler
 from library.Decorate import Return
@@ -6,13 +6,11 @@ from library.Route import route
 from service.AuthService import AuthService
 from library.Exception import UserException
 
-
 @route(r"/auth/list")
 class AllAuthHandler(BaseHandler):
     @Return
     def get(self, *args, **kwargs):
         return AuthService().get_all_auths()
-
 
 @route(r'/auth/canassign')
 class AuthCanAssignHandler(BaseHandler):

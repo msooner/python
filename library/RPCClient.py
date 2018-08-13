@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 """
 connect长时间不用会异常，暂时每次使用新连接来解决

@@ -1,3 +1,5 @@
+#-*-coding:utf-8-*-
+
 from sqlalchemy.orm import scoped_session
 from mapper.init import UnitymobSession
 from conf import conf
@@ -6,7 +8,6 @@ from library.MyRabbitmq import MyRabbitmq
 from library.RPCClient import RPCClient
 from library.Utils import Utils
 from tornado.ioloop import IOLoop
-
 
 class G(object):
     _instance = None

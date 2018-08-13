@@ -1,9 +1,8 @@
-#!/usr/bin/env python
+#-*-coding:utf-8-*-
 
 from .BaseDO import BaseDO
 from sqlalchemy import Column
 from sqlalchemy.types import *
-
 
 class RoleDO(BaseDO):
     __tablename__ = 'py_role'
