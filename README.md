@@ -1,6 +1,6 @@
 **简介**
 该脚手架可快速为管理后台提供restful接口，框架前端使用 https://github.com/PanJiaChen/vue-element-admin  
-框架自带一个简单的RBAC以及web操作界面，web界面地址：https://github.com/xiaowan/pyadmin-ui  
+框架自带一个简单的RBAC以及web操作界面
 数据库表及部分数据在dbinfo 目录内  
 测试数据中包含三个用户，登陆名为root，developer，seven，分别对应 上帝视角，开发人员，普通员工三个系统角色  
 
@@ -19,21 +19,25 @@ pip install tornado
  - pika 操作rabbitmq
  - redis 操作redis，目前登陆token存放在redis中
 
+___________________________________________________________________________________________________________________
+
 ** 安装所需要模块：
 
 conf/__init.py下添加：
 
-import pymysql
-pymysql.install_as_MySQLdb()
+ - import pymysql
+ - pymysql.install_as_MySQLdb()
 
-pip install oslo.config
-pip install oslo.context
-pip install oslo.log
-pip install sqlalchemy
-pip install pika
-pip install redis
-pip install zerorpc
-pip install facebookads
+安装可能未安装的模块
+
+ - pip install oslo.config
+ - pip install oslo.context
+ - pip install oslo.log
+ - pip install sqlalchemy
+ - pip install pika
+ - pip install redis
+ - pip install zerorpc
+ - pip install facebookads
 
 ___________________________________________________________________________________________________________________
 
